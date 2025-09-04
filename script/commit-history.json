@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "e0ccbb63e870559b43b59e00948c3cf3eb3e0edd",
     "author": "Alejandro Alvarez",
     "commit": {
       "date": "2025-09-04T15:10:11.000Z",
       "message": "build: se instalo y configuro entorno de pruebas con jest y babel",
-      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/e0ccbb63e870559b43b59e00948c3cf3eb3e0edd"
     },
     "stats": {
       "total": 4171,
       "additions": 1930,
       "deletions": 2241,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alejandro Alvarez",
+    "commit": {
+      "date": "2025-09-04T15:16:25.000Z",
+      "message": "doc: Agrego lista de funcionalidaes",
+      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 23,
+      "deletions": 0,
       "date": "2025-09-04"
     },
     "coverage": 100,
