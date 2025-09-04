@@ -12,4 +12,9 @@ describe("Totalizar", () => {
     expect(ventas.showPrizeItem()).toEqual(4);
   });
 
+  it("Deberia Ingresar y mostrar Código de estado", () => {
+    const ventas = new totalizar(2, 4, "CA");
+    expect(ventas.showStateCode()).toEqual("CA");
+  });
+
 });

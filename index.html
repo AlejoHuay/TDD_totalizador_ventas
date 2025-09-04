@@ -6,14 +6,27 @@
   <body>
     <h1>Sumador</h1>
     <form id="totalizar-form">
+
       <label for="cant-items">Cantidad de items:</label>
       <input type="number" id="cant-items" />
+
       <label for="precio-item">Precio del item:</label>
       <input type="number" id="precio-item" /> 
+
+      <label for="cbx-estados">Elije un estado:</label>
+      <select name="cbx-estados" id="cbx-estados">
+          <option value="CA">California</option>
+          <option value="TX">Texas</option>
+          <option value="AL">Alabama</option>
+          <option value="UT">Uhta</option>
+          <option value="NV">Nevada</option>
+      </select>
+
       <input type="submit" value="calcular" id="calcular-button" />
     </form>
     <div id="cant-div"></div>
     <div id="precio-div"></div>
+    <div id="estado-div"></div>
 
     <script type="module" src="./src/presenter.js"></script>
   </body>
