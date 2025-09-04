@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6ca73dc55417922a4791b306b4deebd30b0e2599",
     "author": "Alejandro Alvarez",
     "commit": {
       "date": "2025-09-04T15:36:14.000Z",
       "message": "feat: Ingreso y muestro Cantidad de items",
-      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/6ca73dc55417922a4791b306b4deebd30b0e2599"
     },
     "stats": {
       "total": 50,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alejandro Alvarez",
+    "commit": {
+      "date": "2025-09-04T15:55:43.000Z",
+      "message": "feat: Ingreso y muestro Precio por item",
+      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 36,
+      "additions": 24,
+      "deletions": 12,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

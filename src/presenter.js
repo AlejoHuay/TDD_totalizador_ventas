@@ -1,16 +1,18 @@
 import totalizar from "./totalizador";
 
-const items = document.querySelector("#cant-items");
-//const second = document.querySelector("#segundo-numero");
+const cantidadItems = document.querySelector("#cant-items");
+const precioItem = document.querySelector("#precio-item");
 const form = document.querySelector("#totalizar-form");
-const div = document.querySelector("#resultado-div");
+const cantidadDiv = document.querySelector("#cant-div");
+const precioDiv = document.querySelector("#precio-div");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const cant = Number.parseInt(items.value);
-  const ventas = new totalizar(cant);
-  //const secondNumber = Number.parseInt(second.value);
+  const cant = Number.parseInt(cantidadItems.value);
+  const precio = Number.parseInt(precioItem.value);
+  const ventas = new totalizar(cant,precio);
 
-  div.innerHTML = "<p>" + ventas.showCantItems() + "</p>";
+  cantidadDiv.innerHTML = "<p>Cantidad de items: " + ventas.showCantItems() + "</p>"; 
+  precioDiv.innerHTML = "<p>Precio item: " + ventas.showPrizeItem() + "</p>"; 
 });
