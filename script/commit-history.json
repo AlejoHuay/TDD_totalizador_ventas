@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2db01c685c08ef556bde98c1e547945b3ec1bd25",
     "author": "Alejandro Alvarez",
     "commit": {
       "date": "2025-09-04T15:16:25.000Z",
       "message": "doc: Agrego lista de funcionalidaes",
-      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/2db01c685c08ef556bde98c1e547945b3ec1bd25"
     },
     "stats": {
       "total": 23,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alejandro Alvarez",
+    "commit": {
+      "date": "2025-09-04T15:36:14.000Z",
+      "message": "feat: Ingreso y muestro Cantidad de items",
+      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 50,
+      "additions": 36,
+      "deletions": 14,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }
