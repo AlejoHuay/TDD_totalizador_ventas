@@ -27,4 +27,29 @@ describe("Totalizar", () => {
     expect(ventas.showStateTaxe()).toEqual(8.25);
   });
 
+  it("Deberia Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de CA", () => {
+    const ventas = new totalizar(2, 4, "CA");
+    expect(ventas.showPrecioTotal()).toEqual(8.66);
+  });
+
+  it("Deberia Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de AL", () => {
+    const ventas = new totalizar(2, 4, "AL");
+    expect(ventas.showPrecioTotal()).toEqual(8.32);
+  });
+
+  it("Deberia Mostrar el precio total del impuesto según el precio neto y el porcentaje de NV", () => {
+    const ventas = new totalizar(2, 4, "NV");
+    expect(ventas.showPrecioTotal()).toEqual(8.64);
+  });
+
+  it("Deberia Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de UT", () => {
+    const ventas = new totalizar(2, 4, "UT");
+    expect(ventas.showPrecioTotal()).toEqual(8.532);
+  });
+
+  it("Deberia Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de TX", () => {
+    const ventas = new totalizar(2, 4, "TX");
+    expect(ventas.showPrecioTotal()).toEqual(8.5);
+  });
+
 });

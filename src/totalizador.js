@@ -30,6 +30,9 @@ class totalizar{
             return 6.65;
     }
   }
+  showPrecioTotal(){
+    return (this.cantItems * this.precioItem)+ (this.showStateTaxe()*((this.cantItems * this.precioItem)/100));  
+  }
 }
 
 export default totalizar;

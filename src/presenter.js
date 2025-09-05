@@ -11,6 +11,7 @@ const precioDiv = document.querySelector("#precio-div");
 const estadoDiv = document.querySelector("#estado-div");
 const precioNetoDiv = document.querySelector("#precio-neto-div");
 const impuestoDiv = document.querySelector("#impuesto-div")
+const precioTotalDiv = document.querySelector("#precio-total-div")
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -25,5 +26,7 @@ form.addEventListener("submit", (event) => {
   precioDiv.innerHTML = "<p>Precio por item: " + ventas.showPrizeItem() + "</p>"; 
   estadoDiv.innerHTML = "<p>Codigo de estado: " + ventas.showStateCode() + "</p>"; 
   precioNetoDiv.innerHTML = "<p>Precio Neto: " + ventas.showPrecioNeto() + "$</p>"; 
-  impuestoDiv.innerHTML = "<p>Impuesto estado: " + ventas.showStateTaxe() + "%</p>"; 
+  impuestoDiv.innerHTML = "<p>Impuesto estado: " + ventas.showStateTaxe() + "% o " + ventas.showPrecioNeto()*(ventas.showStateTaxe()/100)+ "$</p>";
+  precioTotalDiv.innerHTML = "<p>Precio total: (+ impuestos): " + ventas.showPrecioTotal() + "$</p>"; 
+  
 });

@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0ae56c3bfc201078d08821a2b2fd11dada66baa6",
     "author": "Alejandro Alvarez",
     "commit": {
       "date": "2025-09-05T01:47:27.000Z",
       "message": "feat: Muestro el porcentaje de impuesto que tiene el estado ingresado",
-      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/0ae56c3bfc201078d08821a2b2fd11dada66baa6"
     },
     "stats": {
       "total": 28,
@@ -129,6 +129,25 @@
     },
     "coverage": 71.43,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alejandro Alvarez",
+    "commit": {
+      "date": "2025-09-05T02:35:04.000Z",
+      "message": "feat: Muestro el precio total con el valor del impuesto según el precio neto y el porcentaje para CA, AL, NV, UY y TX",
+      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 34,
+      "additions": 33,
+      "deletions": 1,
+      "date": "2025-09-05"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
