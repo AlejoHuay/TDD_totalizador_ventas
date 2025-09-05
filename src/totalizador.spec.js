@@ -22,4 +22,9 @@ describe("Totalizar", () => {
     expect(ventas.showPrecioNeto()).toEqual(8);
   });
 
+  it("Deberia Mostrar el porcentaje de impuesto que tiene el estado ingresado", () => {
+    const ventas = new totalizar(2, 4, "CA");
+    expect(ventas.showStateTaxe()).toEqual(8.25);
+  });
+
 });
