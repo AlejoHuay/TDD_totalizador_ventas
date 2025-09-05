@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8f6dc73362dedfc6fe5667e4a80a2fe0b48262b9",
     "author": "Alejandro Alvarez",
     "commit": {
       "date": "2025-09-05T02:59:13.000Z",
       "message": "refactoring: mejoro los metodos de mi clase totalizar, reduciendo codigo en el presenter",
-      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/8f6dc73362dedfc6fe5667e4a80a2fe0b48262b9"
     },
     "stats": {
       "total": 7,
@@ -167,6 +167,25 @@
     },
     "coverage": 100,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alejandro Alvarez",
+    "commit": {
+      "date": "2025-09-05T03:44:54.000Z",
+      "message": "feat: Muestro el precio total con el Porcentaje de descuento que corresponde a 1000",
+      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 36,
+      "additions": 33,
+      "deletions": 3,
+      "date": "2025-09-05"
+    },
+    "coverage": 83.33,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }
