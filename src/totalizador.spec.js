@@ -67,4 +67,9 @@ describe("Totalizar", () => {
     expect(ventas.showPrecioTotal()).toEqual(27790);
   });
 
+  it("Deberia Mostrar el precio total con el Porcentaje de descuento que corresponde a 10000", () => {
+    const ventas = new totalizar(10000, 4, "TX");
+    expect(ventas.showPrecioTotal()).toEqual(38500);
+  });
+
 });
