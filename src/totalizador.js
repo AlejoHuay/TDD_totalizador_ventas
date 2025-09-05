@@ -34,19 +34,13 @@ class totalizar{
     return this.showPrecioNeto()*(this.showStateTaxe()/100);  
   }
   showCantDiscount(){
-    switch(true){
-        case this.cantItems>=1000:
-            return 3;
-        case this.cantItems>=3000:
-            return 5;
-        case this.cantItems>=7000:
-            return 7;
-        case this.cantItems>=10000:
-            return 10;
-        case this.cantItems>=30000:
-            return 15;
-        default:
-            return 0;
+    switch (true) {
+       case this.cantItems >= 30000: return 15;
+       case this.cantItems >= 10000: return 10;
+       case this.cantItems >= 7000:  return 7;
+       case this.cantItems >= 3000:  return 5;   
+       case this.cantItems >= 1000:  return 3;
+       default: return 0;
     }
   }
 
