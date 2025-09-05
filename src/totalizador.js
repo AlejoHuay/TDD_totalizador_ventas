@@ -30,8 +30,11 @@ class totalizar{
             return 6.65;
     }
   }
+  showStateTaxeValue(){
+    return this.showPrecioNeto()*(this.showStateTaxe()/100);  
+  }
   showPrecioTotal(){
-    return (this.cantItems * this.precioItem)+ (this.showStateTaxe()*((this.cantItems * this.precioItem)/100));  
+    return this.showPrecioNeto() + this.showStateTaxeValue(); 
   }
 }
 

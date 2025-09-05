@@ -133,17 +133,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "dae8f9e4bf21bfabffa03e9c45ed69c4a95b2219",
     "author": "Alejandro Alvarez",
     "commit": {
       "date": "2025-09-05T02:35:04.000Z",
       "message": "feat: Muestro el precio total con el valor del impuesto según el precio neto y el porcentaje para CA, AL, NV, UY y TX",
-      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/dae8f9e4bf21bfabffa03e9c45ed69c4a95b2219"
     },
     "stats": {
       "total": 34,
       "additions": 33,
       "deletions": 1,
+      "date": "2025-09-05"
+    },
+    "coverage": 100,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alejandro Alvarez",
+    "commit": {
+      "date": "2025-09-05T02:59:13.000Z",
+      "message": "refactoring: mejoro los metodos de mi clase totalizar, reduciendo codigo en el presenter",
+      "url": "https://github.com/AlejoHuay/TDD_totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 5,
+      "deletions": 2,
       "date": "2025-09-05"
     },
     "coverage": 100,
