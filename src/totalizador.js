@@ -3,7 +3,6 @@ class totalizar{
     this.cantItems = cant;
     this.precioItem = precio;
     this.codEstado = estado 
-
   }
   showCantItems(){
     return this.cantItems;
@@ -13,6 +12,9 @@ class totalizar{
   } 
   showStateCode(){
     return this.codEstado; 
+  }
+  showPrecioNeto(){
+    return this.cantItems * this.precioItem; 
   }
 }
 

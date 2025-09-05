@@ -17,4 +17,9 @@ describe("Totalizar", () => {
     expect(ventas.showStateCode()).toEqual("CA");
   });
 
+  it("Deberia Mostrar el precio neto apretando el botón 'Totalizar'", () => {
+    const ventas = new totalizar(2, 4, "CA");
+    expect(ventas.showPrecioNeto()).toEqual(8);
+  });
+
 });
